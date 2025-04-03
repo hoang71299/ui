@@ -15,9 +15,9 @@
         <li class="nav-item">
           <router-link to="/" class="nav-link">
             <div class="parent-icon">
-              <i class="fa-solid fa-home"></i>
+              <i class="fa-solid fa-gauge-high"></i>
             </div>
-            <div class="menu-title">Trang chủ</div>
+            <div class="menu-title">Dashboard</div>
           </router-link>
         </li>
 
