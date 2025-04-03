@@ -127,6 +127,12 @@ const routes = [
     component: () => import("../components/PhanQuyen/QuanLyPhanQuyen.vue"),
     meta: { layout: "client" },
   },
+  // Báo cáo
+  {
+    path: "/bao-cao",
+    component: () => import("../components/BaoCao/index.vue"),
+    meta: { layout: "client" },
+  },
 ];
 
 const router = createRouter({

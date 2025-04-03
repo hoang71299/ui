@@ -203,6 +203,49 @@
             </li>
           </ul>
         </li>
+
+        <!-- Báo cáo -->
+        <li class="nav-item">
+          <router-link to="/bao-cao" class="nav-link">
+            <div class="parent-icon">
+              <i class="fa-solid fa-chart-pie"></i>
+            </div>
+            <div class="menu-title">Báo cáo thống kê</div>
+          </router-link>
+        </li>
+
+        <!-- Tuyển dụng -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown7" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <div class="parent-icon">
+              <i class="fa-solid fa-user-plus"></i>
+            </div>
+            <div class="menu-title">Tuyển dụng</div>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown7">
+            <li>
+              <router-link to="/tuyen-dung" class="dropdown-item">
+                <i class="fa-solid fa-clipboard-list me-2"></i>Tổng quan
+              </router-link>
+            </li>
+            <li>
+              <router-link to="/tuyen-dung/vi-tri" class="dropdown-item">
+                <i class="fa-solid fa-briefcase me-2"></i>Vị trí tuyển dụng
+              </router-link>
+            </li>
+            <li>
+              <router-link to="/tuyen-dung/ung-vien" class="dropdown-item">
+                <i class="fa-solid fa-user-tie me-2"></i>Ứng viên
+              </router-link>
+            </li>
+            <li>
+              <router-link to="/tuyen-dung/phong-van" class="dropdown-item">
+                <i class="fa-solid fa-comments me-2"></i>Lịch phỏng vấn
+              </router-link>
+            </li>
+          </ul>
+        </li>
       </ul>
     </nav>
   </div>
